@@ -1,58 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>reto navidad</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container">
-        LOGO
-        <nav>
-            <ul class="nav-menu-rigth">
-                <li>Inicio</li>
-                <li>Acerca de</li>
-                <li>Contacto</li>
-                <li>Buscar <img src="./img/icon/icons-search.gif" height="20" width="20" alt="Icono Buscar"></li>
-            </ul>
-        </nav>
-        <section>
-            <h1>Ronald Zanga</h1>
-            <img src="./img/portada.jpg" height="400" width="400" alt="Foto personal">
-        </section>
+      <nav class="nav-main">
+        <img
+          src="./img/icon/brand.png"
+          width="50"
+          height="50"
+          alt="Logo de la pagina"
+        />
+        <ul class="nav-menu-rigth">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li>
+            <input type="text" placeholder="search" />
+            <button class="button">Buscar</button>
+
+            <!--               
+             <img
+                src="./img/icon/icons-search.gif"
+                height="20"
+                width="20"
+                alt="Icono Buscar"
+              /> -->
+          </li>
+        </ul>
+      </nav>
+      <hr />
+      <section class="show-case">
+        <h1>Ronald Zanga</h1>
+        <!-- <img
+          src="./img/portada.jpg"
+          height="400"
+          width="400"
+          alt="Foto personal"
+        /> -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          totam sed quas, vero labore eveniet a quasi, praesentium explicabo
+          deleniti beatae? Iure praesentium qui, corrupti minus repellendus
+          illum iste voluptate?
+        </p>
+        <a href="#" class="button"> Leer mas...</a>
+      </section>
     </header>
-    <main>
-        <section>
-            <article>
-                <h2>Articulo sobre mi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse fugiat qui sunt praesentium suscipit blanditiis quis consequatur ducimus, voluptatem eos, nam tempora assumenda eum voluptates enim ratione aperiam soluta!
-                Natus placeat excepturi nihil ut ratione ea impedit repellendus consequuntur atque sed? Enim beatae minus itaque nemo vel optio! Quia pariatur hic dolorem, quae modi architecto recusandae fugit at aliquid.
-                Rerum sit doloribus molestiae, reprehenderit eligendi saepe assumenda pariatur ducimus, rem fugit non. Alias provident doloremque distinctio voluptatem hic, optio illo modi earum rem eos consectetur necessitatibus vitae ex quam.</p>
-            </article>
+    <main class="main-cards">
+      <article>
+        <h3>Articulo sobre mi</h3>
+        <img src="./img/news1.jpg" alt="imagen sobre mi" />
+        
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorum
+          consectetur minima nemo, corrupti consequuntur culpa libero sed
+          blanditiis doloremque alias asperiores ab mollitia. Magni vitae
+          necessitatibus laudantium animi ex?
+        </p>
+        <a href="#" class="button">Leer mas</a>
+      </article>
 
-            <article>
-                <h2>Mi trabajo soñado</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore maxime similique dicta, autem illo ducimus ipsam nesciunt, nulla obcaecati tenetur vel rerum? Ut nobis ipsa qui dolores necessitatibus assumenda reiciendis?
-                Fugiat, laborum? Expedita tenetur, architecto sequi aliquid iste adipisci? Debitis nemo, asperiores atque enim quaerat ipsa voluptate suscipit recusandae deserunt voluptatem veritatis dolore sequi ab iste quibusdam repudiandae magni? Reprehenderit.
-                Officia qui quidem possimus, optio neque vel incidunt architecto sapiente hic libero suscipit dicta doloremque voluptas eaque aut distinctio modi nulla aspernatur in? Sed atque illum cum necessitatibus consectetur obcaecati.
-                Facere ea voluptatum a cumque suscipit. Totam commodi provident beatae, porro at saepe quisquam aperiam cumque dolorem unde autem, non aliquam aspernatur nobis laudantium dolor omnis vero consectetur odit officia.
-                Voluptate delectus officiis veritatis? Nemo accusantium velit odit? Velit unde aliquam ducimus quo placeat doloribus, maxime minima, repellat cumque explicabo a tempora animi debitis veniam mollitia, porro recusandae fugiat. Ratione?</p>
-            </article>
-        </section>
-        <section>
-            <h2>Galeria de Imagenes</h2>
-            <img src="" alt="Imagen 01">
-            <img src="" alt="Imagen 02">
-            <img src="" alt="Imagen 03">
-        </section>
+      <article>
+        <h3>Mi trabajo soñado</h3>
+        <img src="./img/news2.jpg" alt="imagen sobre mi trabajo soñado" />
+        
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorum
+          consectetur minima nemo, corrupti consequuntur culpa libero sed
+          blanditiis doloremque alias asperiores ab mollitia. Magni vitae
+          necessitatibus laudantium animi ex?
+        </p>
+        <a href="#" class="button">Leer mas</a>
+      </article>
+
+      
     </main>
-    <footer>
-        Derechos reservados 2021 
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
-        <a href="">Twitter</a>   
-    </footer>
+    <h2>Galeria de Imagenes</h2>
+    <section class="banner-cards">
+      
+      <article class="article-cards">
+        <img src="./img/news3.jpg" alt="imagen sobre peotyectos realizados" />
+        <h3>Proyectos relizados</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorum
+          consectetur minima nemo, corrupti consequuntur culpa libero sed
+          blanditiis doloremque alias asperiores ab mollitia. Magni vitae
+          necessitatibus laudantium animi ex?
+        </p>
+        <a href="#" class="button">Leer mas</a>
+      </article>
 
-</body>
+      <article class="article-cards">
+        <img src="./img/news4.jpg" alt="imagen sobre mis colaboraciones" />
+        <h3>Colaboraciones</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorum
+          consectetur minima nemo, corrupti consequuntur culpa libero sed
+          blanditiis doloremque alias asperiores ab mollitia. Magni vitae
+          necessitatibus laudantium animi ex?
+        </p>
+        <a href="#" class="button">Leer mas</a>
+      </article>
+      <article class="article-cards">
+        <img src="./img/news3.jpg" alt="imagen sobre peotyectos realizados" />
+        <h3>Proyectos relizados</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorum
+          consectetur minima nemo, corrupti consequuntur culpa libero sed
+          blanditiis doloremque alias asperiores ab mollitia. Magni vitae
+          necessitatibus laudantium animi ex?
+        </p>
+        <a href="#" class="button">Leer mas</a>
+      </article>
+    
+    </section>
+
+    <footer>
+      Derechos reservados 2021
+      <a href="">Facebook</a>
+      <a href="">Instagram</a>
+      <a href="">Twitter</a>
+    </footer>
+  </body>
 </html>
