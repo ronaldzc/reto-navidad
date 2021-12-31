@@ -83,6 +83,13 @@ hr {
   margin-bottom: 10px;
 }
 
+article {
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+  margin: 0.1rem 0;
+  border-radius: 0.3rem;
+  padding: 1rem 1rem;
+}
 .main-cards {
   width: 90%;
   margin: auto;
@@ -90,6 +97,7 @@ hr {
   flex-direction: column;
   gap: 25px;
   margin-bottom: 10px;
+  color: #000;
 }
 
 .main-cards img {
@@ -110,23 +118,89 @@ main article a {
   font-weight: bold;
 }
 
-.banner-cards {
+.title-galery {
   width: 90%;
-  
+  margin: auto;
+}
+.container-galery {
+  width: 90%;
+  margin: auto;
+
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
   gap: 25px;
-  margin: 70px 0;
 }
 .article-cards {
-    
   transition: box-shadow 0.3s ease;
-  background-color: #000;
+  background-color:black;
   margin: 1rem 0;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 0.25rem 0;
 }
-.banner-cards img {
-  width: 40vw;
-  height: 40vh;
+
+.article-cards img {
+  width: 100%;
+  height: 100%;
+}
+
+.cards-banner-one {
+  width: 90%;
+  margin: auto;
+  height: 350px;
+  background: url("./img/tech-red.jpg");
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.content-banner {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.cards-banner-one p,
+.cards-banner-one h2 {
+  margin: 10px 0 20px 0;
+}
+
+.footer-social {
+  background: #fff;
+  width: 100%;
+  margin: auto;
+  
+}
+.footer-social h3{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.link-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-social a{
+   margin: 0.5rem 0.5rem; 
+}
+
+.footer-links {
+    background: #2f3640;
+    font-size: 12px;
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-links ul{
+    margin: 0 auto;
+}
+
+.footer-copyright{
+    background: #2f4640;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+    padding-bottom: 20px;
 }
